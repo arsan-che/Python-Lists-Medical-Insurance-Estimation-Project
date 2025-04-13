@@ -36,3 +36,14 @@ estimated_insurance_data = []
 estimated_insurance_data.append(('Maria', maria_insurance_cost))
 estimated_insurance_data.append(('Rohan', rohan_insurance_cost))
 estimated_insurance_data.append(('Valentina', valentina_insurance_cost))
+# Print the estimated insurance cost data
+print(f'Here is the estimated insurance cost data: {estimated_insurance_data}')
+
+# Calculate the difference between actual and estimated insurance costs
+insurance_cost_difference = [(actual[0], actual[1] - estimated[1]) for actual, estimated in zip(insurance_data, estimated_insurance_data)]
+
+# Print the differences in insurance costs
+print(f'Insurance cost difference: {insurance_cost_difference}')
+
+
+
