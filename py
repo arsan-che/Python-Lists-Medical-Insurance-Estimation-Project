@@ -5,3 +5,12 @@ def estimate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
     
     # Print the estimated insurance cost with the person's name
     print(name + "'s Estimated Insurance Cost: " + str(estimated_cost) + " dollars.")
+
+    # Return the estimated cost
+    return estimated_cost
+
+# Estimate Maria's insurance cost by calling the function with her details
+maria_insurance_cost = estimate_insurance_cost(name="Maria", age=31, sex=0, bmi=23.1, num_of_children=1, smoker=0)
+
+# Estimate Rohan's insurance cost by calling the function with his details
+rohan_insurance_cost = estimate_insurance_cost(name="Rohan", age=25, sex=1, bmi=28.5, num_of_children=3, smoker=0)
