@@ -26,3 +26,13 @@ insurance_cost = [4150.0, 5320, 35210.0]
 
 # Combine names and actual insurance costs using zip and convert to a list
 insurance_data = list
+# Print the actual insurance cost data
+print(f'Here is the actual insurance cost data: {insurance_data}')
+
+# Create an empty list to store estimated insurance data
+estimated_insurance_data = []
+
+# Append estimated insurance costs for each individual to the list
+estimated_insurance_data.append(('Maria', maria_insurance_cost))
+estimated_insurance_data.append(('Rohan', rohan_insurance_cost))
+estimated_insurance_data.append(('Valentina', valentina_insurance_cost))
