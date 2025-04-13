@@ -14,3 +14,15 @@ maria_insurance_cost = estimate_insurance_cost(name="Maria", age=31, sex=0, bmi=
 
 # Estimate Rohan's insurance cost by calling the function with his details
 rohan_insurance_cost = estimate_insurance_cost(name="Rohan", age=25, sex=1, bmi=28.5, num_of_children=3, smoker=0)
+
+# Estimate Valentina's insurance cost by calling the function with her details
+valentina_insurance_cost = estimate_insurance_cost(name="Valentina", age=53, sex=0, bmi=31.4, num_of_children=0, smoker=1)
+
+# Create a list of names for the individuals
+names = ['Maria', 'Rohan', 'Valentina']
+
+# Create a list of actual insurance costs for the individuals
+insurance_cost = [4150.0, 5320, 35210.0]
+
+# Combine names and actual insurance costs using zip and convert to a list
+insurance_data = list
